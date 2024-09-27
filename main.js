@@ -16,6 +16,6 @@ function tick() {
   gain = gain.mul(totalPrestigeBoost());
   gain = gain.mul(totalU1Boost());
   money = money.add(gain)
-  document.getElementById("Money") = money.toString()
+  document.getElementById("Money").innerHTML = money.toString()
 }
 setInterval(tick,50);
