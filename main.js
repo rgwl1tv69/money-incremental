@@ -5,7 +5,7 @@ var u1 = new OmegaNum(0);
 var tps = 60;
 function totalPrestigeBoost() {
   var prestigeBoost = prestige.add(1).pow(3);
-  return prestigeboost;
+  return prestigeBoost;
 }
 function totalU1Boost() {
   var u1Boost = OmegaNum.pow(1.2,u1)
